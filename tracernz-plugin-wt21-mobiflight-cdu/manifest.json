@@ -1,0 +1,15 @@
+{
+  "release_notes": {
+    "neutral": {
+      "LastUpdate": "",
+      "OlderHistory": ""
+    }
+  },
+  "dependencies": [],
+  "content_type": "CUSTOM",
+  "manufacturer": "",
+  "minimum_game_version": "1.37.10",
+  "title": "WT21 Mobiflight CDU Plugin",
+  "creator": "tracernz",
+  "package_version": "0.1.0"
+}

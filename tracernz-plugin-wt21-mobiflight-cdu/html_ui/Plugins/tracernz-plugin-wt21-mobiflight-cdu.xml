@@ -1,0 +1,5 @@
+<Plugins>
+  <Plugin target="WT21_FMC">
+    coui://html_ui/Plugins/tracernz/wt21/wt21_cdu_mobiflight.js
+  </Plugin>
+</Plugins>

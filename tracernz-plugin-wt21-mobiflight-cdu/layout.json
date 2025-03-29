@@ -1,0 +1,14 @@
+{
+  "content": [
+    {
+      "path": "html_ui/Plugins/tracernz-plugin-wt21-mobiflight-cdu.xml",
+      "size": 131,
+      "date": 133876452866060972
+    },
+    {
+      "path": "html_ui/Plugins/tracernz/wt21/wt21_cdu_mobiflight.js",
+      "size": 8080,
+      "date": 133876866715945088
+    }
+  ]
+}
