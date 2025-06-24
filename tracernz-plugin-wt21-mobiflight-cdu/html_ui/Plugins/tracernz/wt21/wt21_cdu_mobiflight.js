@@ -91,12 +91,12 @@ class Wt21MobiflightCduAvionicsPlugin {
   connect() {
     this.socket = new WebSocket(this.socketUri);
     this.socket.onerror = this.onSocketErrorHandler;
-    this.socket.onclose = () => {
-      console.log("[MF CDU plugin] disconnected.");
-      if (Wt21MobiflightCduAvionicsPlugin.isEnabled.get()) {
-        setTimeout(this.connectHandler, 5000);
-      }
-    };
+    // this.socket.onclose = () => {
+    //   console.log("[MF CDU plugin] disconnected.");
+    //   if (Wt21MobiflightCduAvionicsPlugin.isEnabled.get()) {
+    //     setTimeout(this.connectHandler, 5000);
+    //   }
+    // };
     this.socket.onopen = () => {
       console.log("[MF CDU plugin] connected.");
     };
