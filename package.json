@@ -9,7 +9,6 @@
   "scripts": {
     "build": "tsc && rollup -c"
   },
-  "dependencies": {},
   "devDependencies": {
     "@microsoft/msfs-sdk": "2.1.1",
     "@microsoft/msfs-types": "1.14.6",
