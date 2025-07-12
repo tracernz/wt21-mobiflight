@@ -27,7 +27,7 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: tracernz-plugin-wt21-mobiflight-cdu
-          path: tracernz-plugin-wt21-mobiflight-cdu-${GITHUB_REF_NAME}.zip
+          path: tracernz-plugin-wt21-mobiflight-cdu-${{ env.GITHUB_REF_NAME }}.zip
       - name: Zip MobiFlight Profiles
         run: |
           pushd profiles
@@ -36,4 +36,4 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: wt21-mobiflight-cdu-profiles
-          path: wt21-mobiflight-cdu-profiles-${GITHUB_REF_NAME}.zip
+          path: wt21-mobiflight-cdu-profiles-${{ env.GITHUB_REF_NAME }}.zip
