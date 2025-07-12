@@ -1,0 +1,23 @@
+{
+  "name": "tracernz-plugin-wt21-mobiflight-cdu",
+  "type": "module",
+  "version": "0.1.0",
+  "description": "WT21 Plugin to Add Mobiflight CDU integration.",
+  "license": "MIT",
+  "author": {
+    "name": "Michael Corcoran"
+  },
+  "scripts": {
+    "build": "tsc && rollup -c"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@microsoft/msfs-sdk": "2.1.1",
+    "@microsoft/msfs-types": "1.14.6",
+    "@microsoft/msfs-wt21-fmc": "3.0.6",
+    "@microsoft/msfs-wt21-shared": "3.1.2",
+    "rollup": "^4.45.0",
+    "rollup-plugin-copy": "^3.5.0",
+    "typescript": "~5.8.3"
+  }
+}
