@@ -1,7 +1,6 @@
 {
   "name": "tracernz-plugin-wt21-mobiflight-cdu",
   "type": "module",
-  "version": "0.1.0",
   "description": "WT21 Plugin to Add Mobiflight CDU integration.",
   "license": "MIT",
   "author": {
