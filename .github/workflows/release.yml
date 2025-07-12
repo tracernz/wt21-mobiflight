@@ -22,7 +22,7 @@ jobs:
       - name: Zip Package
         run: |
           pushd pkg
-          zip -r "../tracernz-plugin-wt21-mobiflight-cdu-${GITHUB_REF_NAME }.zip" ./pkg
+          zip -r "../tracernz-plugin-wt21-mobiflight-cdu-${GITHUB_REF_NAME}.zip" ./pkg
           popd
       - uses: actions/upload-artifact@v4
         with:
