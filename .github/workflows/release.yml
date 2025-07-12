@@ -1,0 +1,39 @@
+on:
+  push:
+    tags:
+      - "*"
+  
+name: Create and Publish Release
+
+jobs:
+  build:
+    name: Create Release
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '18.x'
+          cache: 'npm'
+      - name: Build Package
+        run: |
+          npm ci
+          npm run build
+      - name: Zip Package
+        run: |
+          pushd pkg
+          zip -r "../tracernz-plugin-wt21-mobiflight-cdu-${GITHUB_REF_NAME }.zip" ./pkg
+          popd
+      - uses: actions/upload-artifact@v4
+        with:
+          name: tracernz-plugin-wt21-mobiflight-cdu
+          path: tracernz-plugin-wt21-mobiflight-cdu-${GITHUB_REF_NAME}.zip
+      - name: Zip MobiFlight Profiles
+        run: |
+          pushd profiles
+          zip -r "../wt21-mobiflight-cdu-profiles-${GITHUB_REF_NAME}.zip" .
+          popd
+      - uses: actions/upload-artifact@v4
+        with:
+          name: wt21-mobiflight-cdu-profiles
+          path: wt21-mobiflight-cdu-profiles-${GITHUB_REF_NAME}.zip
