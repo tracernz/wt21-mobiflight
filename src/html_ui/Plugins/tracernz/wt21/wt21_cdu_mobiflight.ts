@@ -137,14 +137,9 @@ class Wt21MobiflightCduAvionicsPlugin extends WT21FmcAvionicsPlugin {
   private connect() {
     this.socket = new WebSocket(this.socketUri);
     this.socket.onerror = this.onSocketErrorHandler;
-    // this.socket.onclose = () => {
-    //   console.log("[MF CDU plugin] disconnected.");
-    //   if (Wt21MobiflightCduAvionicsPlugin.isEnabled.get()) {
-    //     setTimeout(this.connectHandler, 5000);
-    //   }
-    // };
     this.socket.onopen = () => {
       console.log("[MF CDU plugin] connected.");
+      this.needsUpdate = true;
     };
   }
   private readonly connectHandler = this.connect.bind(this);
