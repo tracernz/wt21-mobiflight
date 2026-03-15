@@ -8,7 +8,7 @@
     "forceConsistentCasingInFileNames": true, /* Disallow inconsistently-cased references to the same file. */
     "declaration": false,
     "removeComments": false,
-    "moduleResolution": "node",
+    "moduleResolution": "bundler",
     "jsxFactory": "FSComponent.buildComponent",
     "jsxFragmentFactory": "FSComponent.Fragment",
     "jsx": "react",
