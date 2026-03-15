@@ -20,7 +20,7 @@ export default function msfsLayout(packageDir) {
           });
           for (const entry of entries) {
             const entryPath = path.join(entry.path, entry.name);
-            if (entry.isFile() && entry.name !== 'layout.json' && entry.name !== 'manifest.json') {
+            if (entry.isFile() && entry.name !== 'layout.json' && entry.name !== 'manifest.json' && entry.name !== 'LICENSE') {
               const stats = await stat(entryPath);
               layout.content.push({
                 path: path.relative(

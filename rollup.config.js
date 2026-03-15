@@ -25,6 +25,10 @@ export default [
             src: "src/html_ui/Plugins/tracernz-plugin-wt21-mobiflight-cdu.xml",
             dest: "pkg/tracernz-plugin-wt21-mobiflight-cdu/html_ui/Plugins/",
           },
+          {
+            src: "LICENSE",
+            dest: "pkg/tracernz-plugin-wt21-mobiflight-cdu/",
+          },
         ],
       }),
       msfsLayout("pkg/tracernz-plugin-wt21-mobiflight-cdu"),
