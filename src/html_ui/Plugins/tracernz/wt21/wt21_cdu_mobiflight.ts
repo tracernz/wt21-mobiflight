@@ -23,7 +23,7 @@ const MfCharSize = Object.freeze({
 
 const MfColour = Object.freeze({
   Amber: "a",
-  Brown: "o",
+  Blue: "o",
   Cyan: "c",
   Green: "g",
   Grey: "e",
@@ -42,7 +42,7 @@ class Wt21MobiflightCduAvionicsPlugin extends WT21FmcAvionicsPlugin {
   });
 
   private static readonly colourMap = new Map([
-    ["blue", MfColour.Cyan],
+    ["blue", MfColour.Blue],
     ["green", MfColour.Green],
     ["disabled", MfColour.Grey],
     ["magenta", MfColour.Magenta],
