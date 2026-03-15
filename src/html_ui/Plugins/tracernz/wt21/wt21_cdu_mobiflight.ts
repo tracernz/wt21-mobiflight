@@ -35,6 +35,12 @@ const MfColour = Object.freeze({
 });
 
 class Wt21MobiflightCduAvionicsPlugin extends WT21FmcAvionicsPlugin {
+  private static readonly fontName = "Collins";
+  private static readonly fontPacket = JSON.stringify({
+    "Target": "Font",
+    "Data": Wt21MobiflightCduAvionicsPlugin.fontName,
+  });
+
   private static readonly colourMap = new Map([
     ["blue", MfColour.Cyan],
     ["green", MfColour.Green],
@@ -63,6 +69,7 @@ class Wt21MobiflightCduAvionicsPlugin extends WT21FmcAvionicsPlugin {
 
   private renderer?: SimpleFmcRenderer;
   private socket?: WebSocket;
+  private isConnectionInitialised = false;
 
   private needsUpdate = false;
   private readonly output: {Target: string, Data: ([string, string, number] | [])[]} = {
@@ -134,29 +141,58 @@ class Wt21MobiflightCduAvionicsPlugin extends WT21FmcAvionicsPlugin {
   }
   private readonly onSocketErrorHandler = this.onSocketError.bind(this);
 
+  private onSocketClose() {
+    this.isConnectionInitialised = false;
+  }
+  private readonly onSocketCloseHandler = this.onSocketClose.bind(this);
+
+  private onSocketOpen() {
+    console.log("[MF CDU plugin] connected.");
+
+    this.isConnectionInitialised = false;
+    
+    this.loadFont().then(() => {
+      this.isConnectionInitialised = true;
+      this.needsUpdate = true;
+    });
+  }
+  private readonly onSocketOpenHandler = this.onSocketOpen.bind(this);
+
   private connect() {
     this.socket = new WebSocket(this.socketUri);
     this.socket.onerror = this.onSocketErrorHandler;
-    this.socket.onopen = () => {
-      console.log("[MF CDU plugin] connected.");
-      this.needsUpdate = true;
-    };
+    this.socket.onclose = this.onSocketClose;
+    this.socket.onopen = this.onSocketOpenHandler;
   }
   private readonly connectHandler = this.connect.bind(this);
 
-  disconnect() {
+  private disconnect() {
     if (this.isConnected() && this.socket) {
       this.output.Data.forEach((c) => c.length = 0);
       this.socket.send(JSON.stringify(this.output));
       this.socket.close();
+      this.isConnectionInitialised = false;
     }
   }
 
-  isConnected() {
+  private isConnected() {
     return this.socket && this.socket.readyState === 1;
   }
 
-  getColour(cellData: FmcColumnInformation) {
+  private isSocketReady() {
+    return this.isConnected() && this.isConnectionInitialised;
+  }
+
+  private async loadFont(): Promise<void> {
+    if (this.isConnected() && this.socket) {
+      console.log("[MF CDU plugin] setting font.");
+      this.socket.send(Wt21MobiflightCduAvionicsPlugin.fontPacket);
+      // give it a second to load the font
+      return new Promise((resolve) => setTimeout(resolve, 1000));
+    }
+  }
+
+  private static getColour(cellData: FmcColumnInformation) {
     for (let k of Wt21MobiflightCduAvionicsPlugin.colourMap.keys()) {
       if (cellData.styles.includes(k)) {
         return Wt21MobiflightCduAvionicsPlugin.colourMap.get(k);
@@ -166,7 +202,7 @@ class Wt21MobiflightCduAvionicsPlugin extends WT21FmcAvionicsPlugin {
   }
 
   onUpdate() {
-    if (!this.needsUpdate || !this.isConnected() || !this.renderer) {
+    if (!this.needsUpdate || !this.isSocketReady() || !this.renderer) {
       return;
     }
     this.needsUpdate = false;
@@ -224,7 +260,7 @@ class Wt21MobiflightCduAvionicsPlugin extends WT21FmcAvionicsPlugin {
       Wt21MobiflightCduAvionicsPlugin.charRegex,
       (c: string) => Wt21MobiflightCduAvionicsPlugin.charMap[c]
     );
-    this.output.Data[outputIndex][1] = this.getColour(cellData);
+    this.output.Data[outputIndex][1] = Wt21MobiflightCduAvionicsPlugin.getColour(cellData);
     this.output.Data[outputIndex][2] =
       (rowIndex % 2 === 1 && rowIndex !== MF_CDU_ROWS - 1) ||
         cellData.styles.includes("s-text")
