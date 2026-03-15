@@ -2,6 +2,7 @@
   "Name": "unsaved",
   "ConfigFiles": [
     {
+      "Label": "CJ4_PFP3",
       "FileName": null,
       "ReferenceOnly": false,
       "EmbedContent": true,
@@ -20,30 +21,22 @@
             "HoldDelay": 350,
             "RepeatDelay": 0
           },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button 1"
+          },
           "DeviceType": "Button",
           "DeviceName": "Button 1",
           "GUID": "d94e8086-59a6-4113-95aa-a5cae454ad82",
           "Active": true,
           "Name": "CDU LSK L1",
           "Type": "InputConfigItem",
-          "ModuleSerial": "WINWING PFP-3N-CAPTAIN / JS-bc3a7720-e2de-11ef-8001-444553540000",
-          "Preconditions": [
-            {
-              "PreconditionType": "none",
-              "PreconditionRef": null,
-              "PreconditionSerial": null,
-              "PreconditionPin": null,
-              "PreconditionOperand": "=",
-              "PreconditionValue": null,
-              "PreconditionLogic": "and",
-              "PreconditionActive": true
-            }
-          ],
-          "Modifiers": {
-            "Items": []
+          "Controller": {
+            "Name": "WINWING PFP-3N-CAPTAIN",
+            "Serial": "JS-bc3a7720-e2de-11ef-8001-444553540000"
           },
-          "ConfigRefs": [],
-          "Status": {}
+          "RawValue": "RELEASE",
+          "Value": " "
         },
         {
           "button": {
@@ -59,30 +52,22 @@
             "HoldDelay": 350,
             "RepeatDelay": 0
           },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button 2"
+          },
           "DeviceType": "Button",
           "DeviceName": "Button 2",
           "GUID": "518f23a0-5cba-4985-8c6e-0b7c2d760a0c",
           "Active": true,
           "Name": "CDU LSK L2",
           "Type": "InputConfigItem",
-          "ModuleSerial": "WINWING PFP-3N-CAPTAIN / JS-bc3a7720-e2de-11ef-8001-444553540000",
-          "Preconditions": [
-            {
-              "PreconditionType": "none",
-              "PreconditionRef": null,
-              "PreconditionSerial": null,
-              "PreconditionPin": null,
-              "PreconditionOperand": "=",
-              "PreconditionValue": null,
-              "PreconditionLogic": "and",
-              "PreconditionActive": true
-            }
-          ],
-          "Modifiers": {
-            "Items": []
+          "Controller": {
+            "Name": "WINWING PFP-3N-CAPTAIN",
+            "Serial": "JS-bc3a7720-e2de-11ef-8001-444553540000"
           },
-          "ConfigRefs": [],
-          "Status": {}
+          "RawValue": "RELEASE",
+          "Value": " "
         },
         {
           "button": {
@@ -98,30 +83,20 @@
             "HoldDelay": 350,
             "RepeatDelay": 0
           },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button 3"
+          },
           "DeviceType": "Button",
           "DeviceName": "Button 3",
           "GUID": "08d5fb34-30f9-4b26-bba0-c191479b073e",
           "Active": true,
           "Name": "CDU LSK L3",
           "Type": "InputConfigItem",
-          "ModuleSerial": "WINWING PFP-3N-CAPTAIN / JS-bc3a7720-e2de-11ef-8001-444553540000",
-          "Preconditions": [
-            {
-              "PreconditionType": "none",
-              "PreconditionRef": null,
-              "PreconditionSerial": null,
-              "PreconditionPin": null,
-              "PreconditionOperand": "=",
-              "PreconditionValue": null,
-              "PreconditionLogic": "and",
-              "PreconditionActive": true
-            }
-          ],
-          "Modifiers": {
-            "Items": []
-          },
-          "ConfigRefs": [],
-          "Status": {}
+          "Controller": {
+            "Name": "WINWING PFP-3N-CAPTAIN",
+            "Serial": "JS-bc3a7720-e2de-11ef-8001-444553540000"
+          }
         },
         {
           "button": {
@@ -137,30 +112,20 @@
             "HoldDelay": 350,
             "RepeatDelay": 0
           },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button 4"
+          },
           "DeviceType": "Button",
           "DeviceName": "Button 4",
           "GUID": "19d4d020-75b0-4604-9172-afde6c88706c",
           "Active": true,
           "Name": "CDU LSK L4",
           "Type": "InputConfigItem",
-          "ModuleSerial": "WINWING PFP-3N-CAPTAIN / JS-bc3a7720-e2de-11ef-8001-444553540000",
-          "Preconditions": [
-            {
-              "PreconditionType": "none",
-              "PreconditionRef": null,
-              "PreconditionSerial": null,
-              "PreconditionPin": null,
-              "PreconditionOperand": "=",
-              "PreconditionValue": null,
-              "PreconditionLogic": "and",
-              "PreconditionActive": true
-            }
-          ],
-          "Modifiers": {
-            "Items": []
-          },
-          "ConfigRefs": [],
-          "Status": {}
+          "Controller": {
+            "Name": "WINWING PFP-3N-CAPTAIN",
+            "Serial": "JS-bc3a7720-e2de-11ef-8001-444553540000"
+          }
         },
         {
           "button": {
@@ -176,30 +141,20 @@
             "HoldDelay": 350,
             "RepeatDelay": 0
           },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button 5"
+          },
           "DeviceType": "Button",
           "DeviceName": "Button 5",
           "GUID": "ef4aa406-c603-41ec-a01b-a521d9699c6a",
           "Active": true,
           "Name": "CDU LSK L5",
           "Type": "InputConfigItem",
-          "ModuleSerial": "WINWING PFP-3N-CAPTAIN / JS-bc3a7720-e2de-11ef-8001-444553540000",
-          "Preconditions": [
-            {
-              "PreconditionType": "none",
-              "PreconditionRef": null,
-              "PreconditionSerial": null,
-              "PreconditionPin": null,
-              "PreconditionOperand": "=",
-              "PreconditionValue": null,
-              "PreconditionLogic": "and",
-              "PreconditionActive": true
-            }
-          ],
-          "Modifiers": {
-            "Items": []
-          },
-          "ConfigRefs": [],
-          "Status": {}
+          "Controller": {
+            "Name": "WINWING PFP-3N-CAPTAIN",
+            "Serial": "JS-bc3a7720-e2de-11ef-8001-444553540000"
+          }
         },
         {
           "button": {
@@ -215,30 +170,22 @@
             "HoldDelay": 350,
             "RepeatDelay": 0
           },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button 6"
+          },
           "DeviceType": "Button",
           "DeviceName": "Button 6",
           "GUID": "f2abe10d-f3f4-44a6-906d-8db5c4297c55",
           "Active": true,
           "Name": "CDU LSK L6",
           "Type": "InputConfigItem",
-          "ModuleSerial": "WINWING PFP-3N-CAPTAIN / JS-bc3a7720-e2de-11ef-8001-444553540000",
-          "Preconditions": [
-            {
-              "PreconditionType": "none",
-              "PreconditionRef": null,
-              "PreconditionSerial": null,
-              "PreconditionPin": null,
-              "PreconditionOperand": "=",
-              "PreconditionValue": null,
-              "PreconditionLogic": "and",
-              "PreconditionActive": true
-            }
-          ],
-          "Modifiers": {
-            "Items": []
+          "Controller": {
+            "Name": "WINWING PFP-3N-CAPTAIN",
+            "Serial": "JS-bc3a7720-e2de-11ef-8001-444553540000"
           },
-          "ConfigRefs": [],
-          "Status": {}
+          "RawValue": "RELEASE",
+          "Value": " "
         },
         {
           "button": {
@@ -254,30 +201,22 @@
             "HoldDelay": 350,
             "RepeatDelay": 0
           },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button 7"
+          },
           "DeviceType": "Button",
           "DeviceName": "Button 7",
           "GUID": "2cbe9c36-2e29-479f-b6a9-e30f3665b45c",
           "Active": true,
           "Name": "CDU LSK R1",
           "Type": "InputConfigItem",
-          "ModuleSerial": "WINWING PFP-3N-CAPTAIN / JS-bc3a7720-e2de-11ef-8001-444553540000",
-          "Preconditions": [
-            {
-              "PreconditionType": "none",
-              "PreconditionRef": null,
-              "PreconditionSerial": null,
-              "PreconditionPin": null,
-              "PreconditionOperand": "=",
-              "PreconditionValue": null,
-              "PreconditionLogic": "and",
-              "PreconditionActive": true
-            }
-          ],
-          "Modifiers": {
-            "Items": []
+          "Controller": {
+            "Name": "WINWING PFP-3N-CAPTAIN",
+            "Serial": "JS-bc3a7720-e2de-11ef-8001-444553540000"
           },
-          "ConfigRefs": [],
-          "Status": {}
+          "RawValue": "RELEASE",
+          "Value": " "
         },
         {
           "button": {
@@ -293,30 +232,20 @@
             "HoldDelay": 350,
             "RepeatDelay": 0
           },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button 8"
+          },
           "DeviceType": "Button",
           "DeviceName": "Button 8",
           "GUID": "59e7a5f3-7c5e-4d7e-affc-4124019ae377",
           "Active": true,
           "Name": "CDU LSK R2",
           "Type": "InputConfigItem",
-          "ModuleSerial": "WINWING PFP-3N-CAPTAIN / JS-bc3a7720-e2de-11ef-8001-444553540000",
-          "Preconditions": [
-            {
-              "PreconditionType": "none",
-              "PreconditionRef": null,
-              "PreconditionSerial": null,
-              "PreconditionPin": null,
-              "PreconditionOperand": "=",
-              "PreconditionValue": null,
-              "PreconditionLogic": "and",
-              "PreconditionActive": true
-            }
-          ],
-          "Modifiers": {
-            "Items": []
-          },
-          "ConfigRefs": [],
-          "Status": {}
+          "Controller": {
+            "Name": "WINWING PFP-3N-CAPTAIN",
+            "Serial": "JS-bc3a7720-e2de-11ef-8001-444553540000"
+          }
         },
         {
           "button": {
@@ -332,30 +261,20 @@
             "HoldDelay": 350,
             "RepeatDelay": 0
           },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button 9"
+          },
           "DeviceType": "Button",
           "DeviceName": "Button 9",
           "GUID": "94630c1a-d4b2-4869-9d6e-f6eb8b01c18b",
           "Active": true,
           "Name": "CDU LSK R3",
           "Type": "InputConfigItem",
-          "ModuleSerial": "WINWING PFP-3N-CAPTAIN / JS-bc3a7720-e2de-11ef-8001-444553540000",
-          "Preconditions": [
-            {
-              "PreconditionType": "none",
-              "PreconditionRef": null,
-              "PreconditionSerial": null,
-              "PreconditionPin": null,
-              "PreconditionOperand": "=",
-              "PreconditionValue": null,
-              "PreconditionLogic": "and",
-              "PreconditionActive": true
-            }
-          ],
-          "Modifiers": {
-            "Items": []
-          },
-          "ConfigRefs": [],
-          "Status": {}
+          "Controller": {
+            "Name": "WINWING PFP-3N-CAPTAIN",
+            "Serial": "JS-bc3a7720-e2de-11ef-8001-444553540000"
+          }
         },
         {
           "button": {
@@ -371,30 +290,20 @@
             "HoldDelay": 350,
             "RepeatDelay": 0
           },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button 10"
+          },
           "DeviceType": "Button",
           "DeviceName": "Button 10",
           "GUID": "ae9a9f5e-0dea-48da-b6a7-18e5bf6bdcc2",
           "Active": true,
           "Name": "CDU LSK R4",
           "Type": "InputConfigItem",
-          "ModuleSerial": "WINWING PFP-3N-CAPTAIN / JS-bc3a7720-e2de-11ef-8001-444553540000",
-          "Preconditions": [
-            {
-              "PreconditionType": "none",
-              "PreconditionRef": null,
-              "PreconditionSerial": null,
-              "PreconditionPin": null,
-              "PreconditionOperand": "=",
-              "PreconditionValue": null,
-              "PreconditionLogic": "and",
-              "PreconditionActive": true
-            }
-          ],
-          "Modifiers": {
-            "Items": []
-          },
-          "ConfigRefs": [],
-          "Status": {}
+          "Controller": {
+            "Name": "WINWING PFP-3N-CAPTAIN",
+            "Serial": "JS-bc3a7720-e2de-11ef-8001-444553540000"
+          }
         },
         {
           "button": {
@@ -410,30 +319,20 @@
             "HoldDelay": 350,
             "RepeatDelay": 0
           },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button 11"
+          },
           "DeviceType": "Button",
           "DeviceName": "Button 11",
           "GUID": "26c62c51-150f-4213-aeea-91f8b6ced03f",
           "Active": true,
           "Name": "CDU LSK R5",
           "Type": "InputConfigItem",
-          "ModuleSerial": "WINWING PFP-3N-CAPTAIN / JS-bc3a7720-e2de-11ef-8001-444553540000",
-          "Preconditions": [
-            {
-              "PreconditionType": "none",
-              "PreconditionRef": null,
-              "PreconditionSerial": null,
-              "PreconditionPin": null,
-              "PreconditionOperand": "=",
-              "PreconditionValue": null,
-              "PreconditionLogic": "and",
-              "PreconditionActive": true
-            }
-          ],
-          "Modifiers": {
-            "Items": []
-          },
-          "ConfigRefs": [],
-          "Status": {}
+          "Controller": {
+            "Name": "WINWING PFP-3N-CAPTAIN",
+            "Serial": "JS-bc3a7720-e2de-11ef-8001-444553540000"
+          }
         },
         {
           "button": {
@@ -449,30 +348,22 @@
             "HoldDelay": 350,
             "RepeatDelay": 0
           },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button 12"
+          },
           "DeviceType": "Button",
           "DeviceName": "Button 12",
           "GUID": "ba0f0668-4b99-4828-aa20-9c967a00beb7",
           "Active": true,
           "Name": "CDU LSK R6",
           "Type": "InputConfigItem",
-          "ModuleSerial": "WINWING PFP-3N-CAPTAIN / JS-bc3a7720-e2de-11ef-8001-444553540000",
-          "Preconditions": [
-            {
-              "PreconditionType": "none",
-              "PreconditionRef": null,
-              "PreconditionSerial": null,
-              "PreconditionPin": null,
-              "PreconditionOperand": "=",
-              "PreconditionValue": null,
-              "PreconditionLogic": "and",
-              "PreconditionActive": true
-            }
-          ],
-          "Modifiers": {
-            "Items": []
+          "Controller": {
+            "Name": "WINWING PFP-3N-CAPTAIN",
+            "Serial": "JS-bc3a7720-e2de-11ef-8001-444553540000"
           },
-          "ConfigRefs": [],
-          "Status": {}
+          "RawValue": "RELEASE",
+          "Value": " "
         },
         {
           "button": {
@@ -488,30 +379,20 @@
             "HoldDelay": 350,
             "RepeatDelay": 0
           },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button 42"
+          },
           "DeviceType": "Button",
           "DeviceName": "Button 42",
           "GUID": "7890a85e-8521-45a8-ab87-710fe29f2b74",
           "Active": true,
           "Name": "CDU A",
           "Type": "InputConfigItem",
-          "ModuleSerial": "WINWING PFP-3N-CAPTAIN / JS-bc3a7720-e2de-11ef-8001-444553540000",
-          "Preconditions": [
-            {
-              "PreconditionType": "none",
-              "PreconditionRef": null,
-              "PreconditionSerial": null,
-              "PreconditionPin": null,
-              "PreconditionOperand": "=",
-              "PreconditionValue": null,
-              "PreconditionLogic": "and",
-              "PreconditionActive": true
-            }
-          ],
-          "Modifiers": {
-            "Items": []
-          },
-          "ConfigRefs": [],
-          "Status": {}
+          "Controller": {
+            "Name": "WINWING PFP-3N-CAPTAIN",
+            "Serial": "JS-bc3a7720-e2de-11ef-8001-444553540000"
+          }
         },
         {
           "button": {
@@ -527,30 +408,20 @@
             "HoldDelay": 350,
             "RepeatDelay": 0
           },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button 43"
+          },
           "DeviceType": "Button",
           "DeviceName": "Button 43",
           "GUID": "2d8d7b76-4d59-4514-a60f-1f846b5ea6db",
           "Active": true,
           "Name": "CDU B",
           "Type": "InputConfigItem",
-          "ModuleSerial": "WINWING PFP-3N-CAPTAIN / JS-bc3a7720-e2de-11ef-8001-444553540000",
-          "Preconditions": [
-            {
-              "PreconditionType": "none",
-              "PreconditionRef": null,
-              "PreconditionSerial": null,
-              "PreconditionPin": null,
-              "PreconditionOperand": "=",
-              "PreconditionValue": null,
-              "PreconditionLogic": "and",
-              "PreconditionActive": true
-            }
-          ],
-          "Modifiers": {
-            "Items": []
-          },
-          "ConfigRefs": [],
-          "Status": {}
+          "Controller": {
+            "Name": "WINWING PFP-3N-CAPTAIN",
+            "Serial": "JS-bc3a7720-e2de-11ef-8001-444553540000"
+          }
         },
         {
           "button": {
@@ -566,30 +437,22 @@
             "HoldDelay": 350,
             "RepeatDelay": 0
           },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button 44"
+          },
           "DeviceType": "Button",
           "DeviceName": "Button 44",
           "GUID": "8da5eb23-f309-403d-91ba-5aaa8c308edb",
           "Active": true,
           "Name": "CDU C",
           "Type": "InputConfigItem",
-          "ModuleSerial": "WINWING PFP-3N-CAPTAIN / JS-bc3a7720-e2de-11ef-8001-444553540000",
-          "Preconditions": [
-            {
-              "PreconditionType": "none",
-              "PreconditionRef": null,
-              "PreconditionSerial": null,
-              "PreconditionPin": null,
-              "PreconditionOperand": "=",
-              "PreconditionValue": null,
-              "PreconditionLogic": "and",
-              "PreconditionActive": true
-            }
-          ],
-          "Modifiers": {
-            "Items": []
+          "Controller": {
+            "Name": "WINWING PFP-3N-CAPTAIN",
+            "Serial": "JS-bc3a7720-e2de-11ef-8001-444553540000"
           },
-          "ConfigRefs": [],
-          "Status": {}
+          "RawValue": "RELEASE",
+          "Value": " "
         },
         {
           "button": {
@@ -605,30 +468,22 @@
             "HoldDelay": 350,
             "RepeatDelay": 0
           },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button 45"
+          },
           "DeviceType": "Button",
           "DeviceName": "Button 45",
           "GUID": "3bbe3c8e-a791-4ac3-ad05-c6c7c0cc5526",
           "Active": true,
           "Name": "CDU D",
           "Type": "InputConfigItem",
-          "ModuleSerial": "WINWING PFP-3N-CAPTAIN / JS-bc3a7720-e2de-11ef-8001-444553540000",
-          "Preconditions": [
-            {
-              "PreconditionType": "none",
-              "PreconditionRef": null,
-              "PreconditionSerial": null,
-              "PreconditionPin": null,
-              "PreconditionOperand": "=",
-              "PreconditionValue": null,
-              "PreconditionLogic": "and",
-              "PreconditionActive": true
-            }
-          ],
-          "Modifiers": {
-            "Items": []
+          "Controller": {
+            "Name": "WINWING PFP-3N-CAPTAIN",
+            "Serial": "JS-bc3a7720-e2de-11ef-8001-444553540000"
           },
-          "ConfigRefs": [],
-          "Status": {}
+          "RawValue": "RELEASE",
+          "Value": " "
         },
         {
           "button": {
@@ -644,30 +499,20 @@
             "HoldDelay": 350,
             "RepeatDelay": 0
           },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button 46"
+          },
           "DeviceType": "Button",
           "DeviceName": "Button 46",
           "GUID": "f0531a43-ce4a-4dbe-bc00-465f3b705919",
           "Active": true,
           "Name": "CDU E",
           "Type": "InputConfigItem",
-          "ModuleSerial": "WINWING PFP-3N-CAPTAIN / JS-bc3a7720-e2de-11ef-8001-444553540000",
-          "Preconditions": [
-            {
-              "PreconditionType": "none",
-              "PreconditionRef": null,
-              "PreconditionSerial": null,
-              "PreconditionPin": null,
-              "PreconditionOperand": "=",
-              "PreconditionValue": null,
-              "PreconditionLogic": "and",
-              "PreconditionActive": true
-            }
-          ],
-          "Modifiers": {
-            "Items": []
-          },
-          "ConfigRefs": [],
-          "Status": {}
+          "Controller": {
+            "Name": "WINWING PFP-3N-CAPTAIN",
+            "Serial": "JS-bc3a7720-e2de-11ef-8001-444553540000"
+          }
         },
         {
           "button": {
@@ -683,30 +528,20 @@
             "HoldDelay": 350,
             "RepeatDelay": 0
           },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button 47"
+          },
           "DeviceType": "Button",
           "DeviceName": "Button 47",
           "GUID": "f666cdfc-2ded-492f-844a-fd727f2e1d6f",
           "Active": true,
           "Name": "CDU F",
           "Type": "InputConfigItem",
-          "ModuleSerial": "WINWING PFP-3N-CAPTAIN / JS-bc3a7720-e2de-11ef-8001-444553540000",
-          "Preconditions": [
-            {
-              "PreconditionType": "none",
-              "PreconditionRef": null,
-              "PreconditionSerial": null,
-              "PreconditionPin": null,
-              "PreconditionOperand": "=",
-              "PreconditionValue": null,
-              "PreconditionLogic": "and",
-              "PreconditionActive": true
-            }
-          ],
-          "Modifiers": {
-            "Items": []
-          },
-          "ConfigRefs": [],
-          "Status": {}
+          "Controller": {
+            "Name": "WINWING PFP-3N-CAPTAIN",
+            "Serial": "JS-bc3a7720-e2de-11ef-8001-444553540000"
+          }
         },
         {
           "button": {
@@ -722,30 +557,20 @@
             "HoldDelay": 350,
             "RepeatDelay": 0
           },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button 48"
+          },
           "DeviceType": "Button",
           "DeviceName": "Button 48",
           "GUID": "a864b5e9-901e-4e65-aa03-413eccff1c05",
           "Active": true,
           "Name": "CDU G",
           "Type": "InputConfigItem",
-          "ModuleSerial": "WINWING PFP-3N-CAPTAIN / JS-bc3a7720-e2de-11ef-8001-444553540000",
-          "Preconditions": [
-            {
-              "PreconditionType": "none",
-              "PreconditionRef": null,
-              "PreconditionSerial": null,
-              "PreconditionPin": null,
-              "PreconditionOperand": "=",
-              "PreconditionValue": null,
-              "PreconditionLogic": "and",
-              "PreconditionActive": true
-            }
-          ],
-          "Modifiers": {
-            "Items": []
-          },
-          "ConfigRefs": [],
-          "Status": {}
+          "Controller": {
+            "Name": "WINWING PFP-3N-CAPTAIN",
+            "Serial": "JS-bc3a7720-e2de-11ef-8001-444553540000"
+          }
         },
         {
           "button": {
@@ -761,30 +586,22 @@
             "HoldDelay": 350,
             "RepeatDelay": 0
           },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button 49"
+          },
           "DeviceType": "Button",
           "DeviceName": "Button 49",
           "GUID": "af365bec-ae55-4afe-88b0-7358e95c2088",
           "Active": true,
           "Name": "CDU H",
           "Type": "InputConfigItem",
-          "ModuleSerial": "WINWING PFP-3N-CAPTAIN / JS-bc3a7720-e2de-11ef-8001-444553540000",
-          "Preconditions": [
-            {
-              "PreconditionType": "none",
-              "PreconditionRef": null,
-              "PreconditionSerial": null,
-              "PreconditionPin": null,
-              "PreconditionOperand": "=",
-              "PreconditionValue": null,
-              "PreconditionLogic": "and",
-              "PreconditionActive": true
-            }
-          ],
-          "Modifiers": {
-            "Items": []
+          "Controller": {
+            "Name": "WINWING PFP-3N-CAPTAIN",
+            "Serial": "JS-bc3a7720-e2de-11ef-8001-444553540000"
           },
-          "ConfigRefs": [],
-          "Status": {}
+          "RawValue": "RELEASE",
+          "Value": " "
         },
         {
           "button": {
@@ -800,30 +617,20 @@
             "HoldDelay": 350,
             "RepeatDelay": 0
           },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button 50"
+          },
           "DeviceType": "Button",
           "DeviceName": "Button 50",
           "GUID": "cd0a5b41-9c90-4689-86c9-512eb01f0713",
           "Active": true,
           "Name": "CDU I",
           "Type": "InputConfigItem",
-          "ModuleSerial": "WINWING PFP-3N-CAPTAIN / JS-bc3a7720-e2de-11ef-8001-444553540000",
-          "Preconditions": [
-            {
-              "PreconditionType": "none",
-              "PreconditionRef": null,
-              "PreconditionSerial": null,
-              "PreconditionPin": null,
-              "PreconditionOperand": "=",
-              "PreconditionValue": null,
-              "PreconditionLogic": "and",
-              "PreconditionActive": true
-            }
-          ],
-          "Modifiers": {
-            "Items": []
-          },
-          "ConfigRefs": [],
-          "Status": {}
+          "Controller": {
+            "Name": "WINWING PFP-3N-CAPTAIN",
+            "Serial": "JS-bc3a7720-e2de-11ef-8001-444553540000"
+          }
         },
         {
           "button": {
@@ -839,30 +646,20 @@
             "HoldDelay": 350,
             "RepeatDelay": 0
           },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button 51"
+          },
           "DeviceType": "Button",
           "DeviceName": "Button 51",
           "GUID": "14ce7d46-9090-4586-a130-7b15a297ee4a",
           "Active": true,
           "Name": "CDU J",
           "Type": "InputConfigItem",
-          "ModuleSerial": "WINWING PFP-3N-CAPTAIN / JS-bc3a7720-e2de-11ef-8001-444553540000",
-          "Preconditions": [
-            {
-              "PreconditionType": "none",
-              "PreconditionRef": null,
-              "PreconditionSerial": null,
-              "PreconditionPin": null,
-              "PreconditionOperand": "=",
-              "PreconditionValue": null,
-              "PreconditionLogic": "and",
-              "PreconditionActive": true
-            }
-          ],
-          "Modifiers": {
-            "Items": []
-          },
-          "ConfigRefs": [],
-          "Status": {}
+          "Controller": {
+            "Name": "WINWING PFP-3N-CAPTAIN",
+            "Serial": "JS-bc3a7720-e2de-11ef-8001-444553540000"
+          }
         },
         {
           "button": {
@@ -878,30 +675,20 @@
             "HoldDelay": 350,
             "RepeatDelay": 0
           },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button 52"
+          },
           "DeviceType": "Button",
           "DeviceName": "Button 52",
           "GUID": "26bd1973-82ed-49f8-baef-baca70b5629e",
           "Active": true,
           "Name": "CDU K",
           "Type": "InputConfigItem",
-          "ModuleSerial": "WINWING PFP-3N-CAPTAIN / JS-bc3a7720-e2de-11ef-8001-444553540000",
-          "Preconditions": [
-            {
-              "PreconditionType": "none",
-              "PreconditionRef": null,
-              "PreconditionSerial": null,
-              "PreconditionPin": null,
-              "PreconditionOperand": "=",
-              "PreconditionValue": null,
-              "PreconditionLogic": "and",
-              "PreconditionActive": true
-            }
-          ],
-          "Modifiers": {
-            "Items": []
-          },
-          "ConfigRefs": [],
-          "Status": {}
+          "Controller": {
+            "Name": "WINWING PFP-3N-CAPTAIN",
+            "Serial": "JS-bc3a7720-e2de-11ef-8001-444553540000"
+          }
         },
         {
           "button": {
@@ -917,30 +704,22 @@
             "HoldDelay": 350,
             "RepeatDelay": 0
           },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button 53"
+          },
           "DeviceType": "Button",
           "DeviceName": "Button 53",
           "GUID": "26104ab4-f248-4979-9983-b4c4ff53c958",
           "Active": true,
           "Name": "CDU L",
           "Type": "InputConfigItem",
-          "ModuleSerial": "WINWING PFP-3N-CAPTAIN / JS-bc3a7720-e2de-11ef-8001-444553540000",
-          "Preconditions": [
-            {
-              "PreconditionType": "none",
-              "PreconditionRef": null,
-              "PreconditionSerial": null,
-              "PreconditionPin": null,
-              "PreconditionOperand": "=",
-              "PreconditionValue": null,
-              "PreconditionLogic": "and",
-              "PreconditionActive": true
-            }
-          ],
-          "Modifiers": {
-            "Items": []
+          "Controller": {
+            "Name": "WINWING PFP-3N-CAPTAIN",
+            "Serial": "JS-bc3a7720-e2de-11ef-8001-444553540000"
           },
-          "ConfigRefs": [],
-          "Status": {}
+          "RawValue": "RELEASE",
+          "Value": " "
         },
         {
           "button": {
@@ -956,30 +735,22 @@
             "HoldDelay": 350,
             "RepeatDelay": 0
           },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button 54"
+          },
           "DeviceType": "Button",
           "DeviceName": "Button 54",
           "GUID": "18202a10-b0af-404a-81d3-97ef533f327b",
           "Active": true,
           "Name": "CDU M",
           "Type": "InputConfigItem",
-          "ModuleSerial": "WINWING PFP-3N-CAPTAIN / JS-bc3a7720-e2de-11ef-8001-444553540000",
-          "Preconditions": [
-            {
-              "PreconditionType": "none",
-              "PreconditionRef": null,
-              "PreconditionSerial": null,
-              "PreconditionPin": null,
-              "PreconditionOperand": "=",
-              "PreconditionValue": null,
-              "PreconditionLogic": "and",
-              "PreconditionActive": true
-            }
-          ],
-          "Modifiers": {
-            "Items": []
+          "Controller": {
+            "Name": "WINWING PFP-3N-CAPTAIN",
+            "Serial": "JS-bc3a7720-e2de-11ef-8001-444553540000"
           },
-          "ConfigRefs": [],
-          "Status": {}
+          "RawValue": "RELEASE",
+          "Value": " "
         },
         {
           "button": {
@@ -995,30 +766,22 @@
             "HoldDelay": 350,
             "RepeatDelay": 0
           },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button 55"
+          },
           "DeviceType": "Button",
           "DeviceName": "Button 55",
           "GUID": "09391d7e-2a82-445d-a522-eb7a6b0b35a5",
           "Active": true,
           "Name": "CDU N",
           "Type": "InputConfigItem",
-          "ModuleSerial": "WINWING PFP-3N-CAPTAIN / JS-bc3a7720-e2de-11ef-8001-444553540000",
-          "Preconditions": [
-            {
-              "PreconditionType": "none",
-              "PreconditionRef": null,
-              "PreconditionSerial": null,
-              "PreconditionPin": null,
-              "PreconditionOperand": "=",
-              "PreconditionValue": null,
-              "PreconditionLogic": "and",
-              "PreconditionActive": true
-            }
-          ],
-          "Modifiers": {
-            "Items": []
+          "Controller": {
+            "Name": "WINWING PFP-3N-CAPTAIN",
+            "Serial": "JS-bc3a7720-e2de-11ef-8001-444553540000"
           },
-          "ConfigRefs": [],
-          "Status": {}
+          "RawValue": "RELEASE",
+          "Value": " "
         },
         {
           "button": {
@@ -1034,30 +797,20 @@
             "HoldDelay": 350,
             "RepeatDelay": 0
           },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button 56"
+          },
           "DeviceType": "Button",
           "DeviceName": "Button 56",
           "GUID": "1e36412a-3c0e-4be3-835f-6ad06902305a",
           "Active": true,
           "Name": "CDU O",
           "Type": "InputConfigItem",
-          "ModuleSerial": "WINWING PFP-3N-CAPTAIN / JS-bc3a7720-e2de-11ef-8001-444553540000",
-          "Preconditions": [
-            {
-              "PreconditionType": "none",
-              "PreconditionRef": null,
-              "PreconditionSerial": null,
-              "PreconditionPin": null,
-              "PreconditionOperand": "=",
-              "PreconditionValue": null,
-              "PreconditionLogic": "and",
-              "PreconditionActive": true
-            }
-          ],
-          "Modifiers": {
-            "Items": []
-          },
-          "ConfigRefs": [],
-          "Status": {}
+          "Controller": {
+            "Name": "WINWING PFP-3N-CAPTAIN",
+            "Serial": "JS-bc3a7720-e2de-11ef-8001-444553540000"
+          }
         },
         {
           "button": {
@@ -1073,30 +826,20 @@
             "HoldDelay": 350,
             "RepeatDelay": 0
           },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button 57"
+          },
           "DeviceType": "Button",
           "DeviceName": "Button 57",
           "GUID": "14aeb24e-e2b1-41d0-a0c2-42bc9895cb8e",
           "Active": true,
           "Name": "CDU P",
           "Type": "InputConfigItem",
-          "ModuleSerial": "WINWING PFP-3N-CAPTAIN / JS-bc3a7720-e2de-11ef-8001-444553540000",
-          "Preconditions": [
-            {
-              "PreconditionType": "none",
-              "PreconditionRef": null,
-              "PreconditionSerial": null,
-              "PreconditionPin": null,
-              "PreconditionOperand": "=",
-              "PreconditionValue": null,
-              "PreconditionLogic": "and",
-              "PreconditionActive": true
-            }
-          ],
-          "Modifiers": {
-            "Items": []
-          },
-          "ConfigRefs": [],
-          "Status": {}
+          "Controller": {
+            "Name": "WINWING PFP-3N-CAPTAIN",
+            "Serial": "JS-bc3a7720-e2de-11ef-8001-444553540000"
+          }
         },
         {
           "button": {
@@ -1112,30 +855,20 @@
             "HoldDelay": 350,
             "RepeatDelay": 0
           },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button 58"
+          },
           "DeviceType": "Button",
           "DeviceName": "Button 58",
           "GUID": "60fac24f-0031-4146-bee4-824e76ea714d",
           "Active": true,
           "Name": "CDU Q",
           "Type": "InputConfigItem",
-          "ModuleSerial": "WINWING PFP-3N-CAPTAIN / JS-bc3a7720-e2de-11ef-8001-444553540000",
-          "Preconditions": [
-            {
-              "PreconditionType": "none",
-              "PreconditionRef": null,
-              "PreconditionSerial": null,
-              "PreconditionPin": null,
-              "PreconditionOperand": "=",
-              "PreconditionValue": null,
-              "PreconditionLogic": "and",
-              "PreconditionActive": true
-            }
-          ],
-          "Modifiers": {
-            "Items": []
-          },
-          "ConfigRefs": [],
-          "Status": {}
+          "Controller": {
+            "Name": "WINWING PFP-3N-CAPTAIN",
+            "Serial": "JS-bc3a7720-e2de-11ef-8001-444553540000"
+          }
         },
         {
           "button": {
@@ -1151,30 +884,20 @@
             "HoldDelay": 350,
             "RepeatDelay": 0
           },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button 59"
+          },
           "DeviceType": "Button",
           "DeviceName": "Button 59",
           "GUID": "40c9d35e-32ad-4f5a-b11c-9ac2d2821c35",
           "Active": true,
           "Name": "CDU R",
           "Type": "InputConfigItem",
-          "ModuleSerial": "WINWING PFP-3N-CAPTAIN / JS-bc3a7720-e2de-11ef-8001-444553540000",
-          "Preconditions": [
-            {
-              "PreconditionType": "none",
-              "PreconditionRef": null,
-              "PreconditionSerial": null,
-              "PreconditionPin": null,
-              "PreconditionOperand": "=",
-              "PreconditionValue": null,
-              "PreconditionLogic": "and",
-              "PreconditionActive": true
-            }
-          ],
-          "Modifiers": {
-            "Items": []
-          },
-          "ConfigRefs": [],
-          "Status": {}
+          "Controller": {
+            "Name": "WINWING PFP-3N-CAPTAIN",
+            "Serial": "JS-bc3a7720-e2de-11ef-8001-444553540000"
+          }
         },
         {
           "button": {
@@ -1190,30 +913,20 @@
             "HoldDelay": 350,
             "RepeatDelay": 0
           },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button 60"
+          },
           "DeviceType": "Button",
           "DeviceName": "Button 60",
           "GUID": "403ea7c0-daa2-48e6-8602-364d08f47a8d",
           "Active": true,
           "Name": "CDU S",
           "Type": "InputConfigItem",
-          "ModuleSerial": "WINWING PFP-3N-CAPTAIN / JS-bc3a7720-e2de-11ef-8001-444553540000",
-          "Preconditions": [
-            {
-              "PreconditionType": "none",
-              "PreconditionRef": null,
-              "PreconditionSerial": null,
-              "PreconditionPin": null,
-              "PreconditionOperand": "=",
-              "PreconditionValue": null,
-              "PreconditionLogic": "and",
-              "PreconditionActive": true
-            }
-          ],
-          "Modifiers": {
-            "Items": []
-          },
-          "ConfigRefs": [],
-          "Status": {}
+          "Controller": {
+            "Name": "WINWING PFP-3N-CAPTAIN",
+            "Serial": "JS-bc3a7720-e2de-11ef-8001-444553540000"
+          }
         },
         {
           "button": {
@@ -1229,30 +942,20 @@
             "HoldDelay": 350,
             "RepeatDelay": 0
           },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button 61"
+          },
           "DeviceType": "Button",
           "DeviceName": "Button 61",
           "GUID": "22a889de-3921-4056-a9ba-843d38898b01",
           "Active": true,
           "Name": "CDU T",
           "Type": "InputConfigItem",
-          "ModuleSerial": "WINWING PFP-3N-CAPTAIN / JS-bc3a7720-e2de-11ef-8001-444553540000",
-          "Preconditions": [
-            {
-              "PreconditionType": "none",
-              "PreconditionRef": null,
-              "PreconditionSerial": null,
-              "PreconditionPin": null,
-              "PreconditionOperand": "=",
-              "PreconditionValue": null,
-              "PreconditionLogic": "and",
-              "PreconditionActive": true
-            }
-          ],
-          "Modifiers": {
-            "Items": []
-          },
-          "ConfigRefs": [],
-          "Status": {}
+          "Controller": {
+            "Name": "WINWING PFP-3N-CAPTAIN",
+            "Serial": "JS-bc3a7720-e2de-11ef-8001-444553540000"
+          }
         },
         {
           "button": {
@@ -1268,30 +971,20 @@
             "HoldDelay": 350,
             "RepeatDelay": 0
           },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button 62"
+          },
           "DeviceType": "Button",
           "DeviceName": "Button 62",
           "GUID": "8cbcc567-6159-462d-9df0-f3d395479303",
           "Active": true,
           "Name": "CDU U",
           "Type": "InputConfigItem",
-          "ModuleSerial": "WINWING PFP-3N-CAPTAIN / JS-bc3a7720-e2de-11ef-8001-444553540000",
-          "Preconditions": [
-            {
-              "PreconditionType": "none",
-              "PreconditionRef": null,
-              "PreconditionSerial": null,
-              "PreconditionPin": null,
-              "PreconditionOperand": "=",
-              "PreconditionValue": null,
-              "PreconditionLogic": "and",
-              "PreconditionActive": true
-            }
-          ],
-          "Modifiers": {
-            "Items": []
-          },
-          "ConfigRefs": [],
-          "Status": {}
+          "Controller": {
+            "Name": "WINWING PFP-3N-CAPTAIN",
+            "Serial": "JS-bc3a7720-e2de-11ef-8001-444553540000"
+          }
         },
         {
           "button": {
@@ -1307,30 +1000,22 @@
             "HoldDelay": 350,
             "RepeatDelay": 0
           },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button 63"
+          },
           "DeviceType": "Button",
           "DeviceName": "Button 63",
           "GUID": "b53fe27c-c9c1-4e5d-99b1-eaa8fc81a388",
           "Active": true,
           "Name": "CDU V",
           "Type": "InputConfigItem",
-          "ModuleSerial": "WINWING PFP-3N-CAPTAIN / JS-bc3a7720-e2de-11ef-8001-444553540000",
-          "Preconditions": [
-            {
-              "PreconditionType": "none",
-              "PreconditionRef": null,
-              "PreconditionSerial": null,
-              "PreconditionPin": null,
-              "PreconditionOperand": "=",
-              "PreconditionValue": null,
-              "PreconditionLogic": "and",
-              "PreconditionActive": true
-            }
-          ],
-          "Modifiers": {
-            "Items": []
+          "Controller": {
+            "Name": "WINWING PFP-3N-CAPTAIN",
+            "Serial": "JS-bc3a7720-e2de-11ef-8001-444553540000"
           },
-          "ConfigRefs": [],
-          "Status": {}
+          "RawValue": "RELEASE",
+          "Value": " "
         },
         {
           "button": {
@@ -1346,30 +1031,22 @@
             "HoldDelay": 350,
             "RepeatDelay": 0
           },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button 64"
+          },
           "DeviceType": "Button",
           "DeviceName": "Button 64",
           "GUID": "35074365-d1f2-42e1-a1af-6e125bf9c644",
           "Active": true,
           "Name": "CDU W",
           "Type": "InputConfigItem",
-          "ModuleSerial": "WINWING PFP-3N-CAPTAIN / JS-bc3a7720-e2de-11ef-8001-444553540000",
-          "Preconditions": [
-            {
-              "PreconditionType": "none",
-              "PreconditionRef": null,
-              "PreconditionSerial": null,
-              "PreconditionPin": null,
-              "PreconditionOperand": "=",
-              "PreconditionValue": null,
-              "PreconditionLogic": "and",
-              "PreconditionActive": true
-            }
-          ],
-          "Modifiers": {
-            "Items": []
+          "Controller": {
+            "Name": "WINWING PFP-3N-CAPTAIN",
+            "Serial": "JS-bc3a7720-e2de-11ef-8001-444553540000"
           },
-          "ConfigRefs": [],
-          "Status": {}
+          "RawValue": "RELEASE",
+          "Value": " "
         },
         {
           "button": {
@@ -1385,30 +1062,20 @@
             "HoldDelay": 350,
             "RepeatDelay": 0
           },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button 65"
+          },
           "DeviceType": "Button",
           "DeviceName": "Button 65",
           "GUID": "f196fd42-e1b8-40ac-9908-e9b24ffa54f9",
           "Active": true,
           "Name": "CDU X",
           "Type": "InputConfigItem",
-          "ModuleSerial": "WINWING PFP-3N-CAPTAIN / JS-bc3a7720-e2de-11ef-8001-444553540000",
-          "Preconditions": [
-            {
-              "PreconditionType": "none",
-              "PreconditionRef": null,
-              "PreconditionSerial": null,
-              "PreconditionPin": null,
-              "PreconditionOperand": "=",
-              "PreconditionValue": null,
-              "PreconditionLogic": "and",
-              "PreconditionActive": true
-            }
-          ],
-          "Modifiers": {
-            "Items": []
-          },
-          "ConfigRefs": [],
-          "Status": {}
+          "Controller": {
+            "Name": "WINWING PFP-3N-CAPTAIN",
+            "Serial": "JS-bc3a7720-e2de-11ef-8001-444553540000"
+          }
         },
         {
           "button": {
@@ -1424,30 +1091,20 @@
             "HoldDelay": 350,
             "RepeatDelay": 0
           },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button 66"
+          },
           "DeviceType": "Button",
           "DeviceName": "Button 66",
           "GUID": "361de962-d271-429d-87a9-429afa42ce9d",
           "Active": true,
           "Name": "CDU Y",
           "Type": "InputConfigItem",
-          "ModuleSerial": "WINWING PFP-3N-CAPTAIN / JS-bc3a7720-e2de-11ef-8001-444553540000",
-          "Preconditions": [
-            {
-              "PreconditionType": "none",
-              "PreconditionRef": null,
-              "PreconditionSerial": null,
-              "PreconditionPin": null,
-              "PreconditionOperand": "=",
-              "PreconditionValue": null,
-              "PreconditionLogic": "and",
-              "PreconditionActive": true
-            }
-          ],
-          "Modifiers": {
-            "Items": []
-          },
-          "ConfigRefs": [],
-          "Status": {}
+          "Controller": {
+            "Name": "WINWING PFP-3N-CAPTAIN",
+            "Serial": "JS-bc3a7720-e2de-11ef-8001-444553540000"
+          }
         },
         {
           "button": {
@@ -1463,30 +1120,22 @@
             "HoldDelay": 350,
             "RepeatDelay": 0
           },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button 67"
+          },
           "DeviceType": "Button",
           "DeviceName": "Button 67",
           "GUID": "07644416-b23d-466e-8f0f-eee2d1c6fd53",
           "Active": true,
           "Name": "CDU Z",
           "Type": "InputConfigItem",
-          "ModuleSerial": "WINWING PFP-3N-CAPTAIN / JS-bc3a7720-e2de-11ef-8001-444553540000",
-          "Preconditions": [
-            {
-              "PreconditionType": "none",
-              "PreconditionRef": null,
-              "PreconditionSerial": null,
-              "PreconditionPin": null,
-              "PreconditionOperand": "=",
-              "PreconditionValue": null,
-              "PreconditionLogic": "and",
-              "PreconditionActive": true
-            }
-          ],
-          "Modifiers": {
-            "Items": []
+          "Controller": {
+            "Name": "WINWING PFP-3N-CAPTAIN",
+            "Serial": "JS-bc3a7720-e2de-11ef-8001-444553540000"
           },
-          "ConfigRefs": [],
-          "Status": {}
+          "RawValue": "RELEASE",
+          "Value": " "
         },
         {
           "button": {
@@ -1502,30 +1151,20 @@
             "HoldDelay": 350,
             "RepeatDelay": 0
           },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button 68"
+          },
           "DeviceType": "Button",
           "DeviceName": "Button 68",
           "GUID": "fa63e988-d550-449a-9fb1-3e6f61a03d1f",
           "Active": true,
           "Name": "CDU SP",
           "Type": "InputConfigItem",
-          "ModuleSerial": "WINWING PFP-3N-CAPTAIN / JS-bc3a7720-e2de-11ef-8001-444553540000",
-          "Preconditions": [
-            {
-              "PreconditionType": "none",
-              "PreconditionRef": null,
-              "PreconditionSerial": null,
-              "PreconditionPin": null,
-              "PreconditionOperand": "=",
-              "PreconditionValue": null,
-              "PreconditionLogic": "and",
-              "PreconditionActive": true
-            }
-          ],
-          "Modifiers": {
-            "Items": []
-          },
-          "ConfigRefs": [],
-          "Status": {}
+          "Controller": {
+            "Name": "WINWING PFP-3N-CAPTAIN",
+            "Serial": "JS-bc3a7720-e2de-11ef-8001-444553540000"
+          }
         },
         {
           "button": {
@@ -1541,30 +1180,22 @@
             "HoldDelay": 350,
             "RepeatDelay": 0
           },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button 69"
+          },
           "DeviceType": "Button",
           "DeviceName": "Button 69",
           "GUID": "5da859a8-4551-433a-b5a0-1671e658ecd3",
           "Active": true,
           "Name": "CDU DEL",
           "Type": "InputConfigItem",
-          "ModuleSerial": "WINWING PFP-3N-CAPTAIN / JS-bc3a7720-e2de-11ef-8001-444553540000",
-          "Preconditions": [
-            {
-              "PreconditionType": "none",
-              "PreconditionRef": null,
-              "PreconditionSerial": null,
-              "PreconditionPin": null,
-              "PreconditionOperand": "=",
-              "PreconditionValue": null,
-              "PreconditionLogic": "and",
-              "PreconditionActive": true
-            }
-          ],
-          "Modifiers": {
-            "Items": []
+          "Controller": {
+            "Name": "WINWING PFP-3N-CAPTAIN",
+            "Serial": "JS-bc3a7720-e2de-11ef-8001-444553540000"
           },
-          "ConfigRefs": [],
-          "Status": {}
+          "RawValue": "RELEASE",
+          "Value": " "
         },
         {
           "button": {
@@ -1580,30 +1211,20 @@
             "HoldDelay": 350,
             "RepeatDelay": 0
           },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button 70"
+          },
           "DeviceType": "Button",
           "DeviceName": "Button 70",
           "GUID": "400b30e7-e320-46e1-a088-cbfe67142ef0",
           "Active": true,
           "Name": "CDU /",
           "Type": "InputConfigItem",
-          "ModuleSerial": "WINWING PFP-3N-CAPTAIN / JS-bc3a7720-e2de-11ef-8001-444553540000",
-          "Preconditions": [
-            {
-              "PreconditionType": "none",
-              "PreconditionRef": null,
-              "PreconditionSerial": null,
-              "PreconditionPin": null,
-              "PreconditionOperand": "=",
-              "PreconditionValue": null,
-              "PreconditionLogic": "and",
-              "PreconditionActive": true
-            }
-          ],
-          "Modifiers": {
-            "Items": []
-          },
-          "ConfigRefs": [],
-          "Status": {}
+          "Controller": {
+            "Name": "WINWING PFP-3N-CAPTAIN",
+            "Serial": "JS-bc3a7720-e2de-11ef-8001-444553540000"
+          }
         },
         {
           "button": {
@@ -1619,30 +1240,22 @@
             "HoldDelay": 350,
             "RepeatDelay": 0
           },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button 71"
+          },
           "DeviceType": "Button",
           "DeviceName": "Button 71",
           "GUID": "acd0fac8-08e2-469d-a5f8-dd46467a81f4",
           "Active": true,
           "Name": "CDU CLR",
           "Type": "InputConfigItem",
-          "ModuleSerial": "WINWING PFP-3N-CAPTAIN / JS-bc3a7720-e2de-11ef-8001-444553540000",
-          "Preconditions": [
-            {
-              "PreconditionType": "none",
-              "PreconditionRef": null,
-              "PreconditionSerial": null,
-              "PreconditionPin": null,
-              "PreconditionOperand": "=",
-              "PreconditionValue": null,
-              "PreconditionLogic": "and",
-              "PreconditionActive": true
-            }
-          ],
-          "Modifiers": {
-            "Items": []
+          "Controller": {
+            "Name": "WINWING PFP-3N-CAPTAIN",
+            "Serial": "JS-bc3a7720-e2de-11ef-8001-444553540000"
           },
-          "ConfigRefs": [],
-          "Status": {}
+          "RawValue": "RELEASE",
+          "Value": " "
         },
         {
           "button": {
@@ -1658,30 +1271,20 @@
             "HoldDelay": 350,
             "RepeatDelay": 0
           },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button 30"
+          },
           "DeviceType": "Button",
           "DeviceName": "Button 30",
           "GUID": "c986068d-4957-41e7-a2d2-fbad3170edf7",
           "Active": true,
           "Name": "CDU 1",
           "Type": "InputConfigItem",
-          "ModuleSerial": "WINWING PFP-3N-CAPTAIN / JS-bc3a7720-e2de-11ef-8001-444553540000",
-          "Preconditions": [
-            {
-              "PreconditionType": "none",
-              "PreconditionRef": null,
-              "PreconditionSerial": null,
-              "PreconditionPin": null,
-              "PreconditionOperand": "=",
-              "PreconditionValue": null,
-              "PreconditionLogic": "and",
-              "PreconditionActive": true
-            }
-          ],
-          "Modifiers": {
-            "Items": []
-          },
-          "ConfigRefs": [],
-          "Status": {}
+          "Controller": {
+            "Name": "WINWING PFP-3N-CAPTAIN",
+            "Serial": "JS-bc3a7720-e2de-11ef-8001-444553540000"
+          }
         },
         {
           "button": {
@@ -1697,30 +1300,20 @@
             "HoldDelay": 350,
             "RepeatDelay": 0
           },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button 31"
+          },
           "DeviceType": "Button",
           "DeviceName": "Button 31",
           "GUID": "3ff353c6-254c-435e-ada4-8a976e71110a",
           "Active": true,
           "Name": "CDU 2",
           "Type": "InputConfigItem",
-          "ModuleSerial": "WINWING PFP-3N-CAPTAIN / JS-bc3a7720-e2de-11ef-8001-444553540000",
-          "Preconditions": [
-            {
-              "PreconditionType": "none",
-              "PreconditionRef": null,
-              "PreconditionSerial": null,
-              "PreconditionPin": null,
-              "PreconditionOperand": "=",
-              "PreconditionValue": null,
-              "PreconditionLogic": "and",
-              "PreconditionActive": true
-            }
-          ],
-          "Modifiers": {
-            "Items": []
-          },
-          "ConfigRefs": [],
-          "Status": {}
+          "Controller": {
+            "Name": "WINWING PFP-3N-CAPTAIN",
+            "Serial": "JS-bc3a7720-e2de-11ef-8001-444553540000"
+          }
         },
         {
           "button": {
@@ -1736,30 +1329,20 @@
             "HoldDelay": 350,
             "RepeatDelay": 0
           },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button 32"
+          },
           "DeviceType": "Button",
           "DeviceName": "Button 32",
           "GUID": "5a68a198-8dc7-4540-9547-7996f6aa3753",
           "Active": true,
           "Name": "CDU 3",
           "Type": "InputConfigItem",
-          "ModuleSerial": "WINWING PFP-3N-CAPTAIN / JS-bc3a7720-e2de-11ef-8001-444553540000",
-          "Preconditions": [
-            {
-              "PreconditionType": "none",
-              "PreconditionRef": null,
-              "PreconditionSerial": null,
-              "PreconditionPin": null,
-              "PreconditionOperand": "=",
-              "PreconditionValue": null,
-              "PreconditionLogic": "and",
-              "PreconditionActive": true
-            }
-          ],
-          "Modifiers": {
-            "Items": []
-          },
-          "ConfigRefs": [],
-          "Status": {}
+          "Controller": {
+            "Name": "WINWING PFP-3N-CAPTAIN",
+            "Serial": "JS-bc3a7720-e2de-11ef-8001-444553540000"
+          }
         },
         {
           "button": {
@@ -1775,30 +1358,20 @@
             "HoldDelay": 350,
             "RepeatDelay": 0
           },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button 33"
+          },
           "DeviceType": "Button",
           "DeviceName": "Button 33",
           "GUID": "8e9b9eaf-a905-42bd-90e2-7154bfccbb46",
           "Active": true,
           "Name": "CDU 4",
           "Type": "InputConfigItem",
-          "ModuleSerial": "WINWING PFP-3N-CAPTAIN / JS-bc3a7720-e2de-11ef-8001-444553540000",
-          "Preconditions": [
-            {
-              "PreconditionType": "none",
-              "PreconditionRef": null,
-              "PreconditionSerial": null,
-              "PreconditionPin": null,
-              "PreconditionOperand": "=",
-              "PreconditionValue": null,
-              "PreconditionLogic": "and",
-              "PreconditionActive": true
-            }
-          ],
-          "Modifiers": {
-            "Items": []
-          },
-          "ConfigRefs": [],
-          "Status": {}
+          "Controller": {
+            "Name": "WINWING PFP-3N-CAPTAIN",
+            "Serial": "JS-bc3a7720-e2de-11ef-8001-444553540000"
+          }
         },
         {
           "button": {
@@ -1814,30 +1387,20 @@
             "HoldDelay": 350,
             "RepeatDelay": 0
           },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button 34"
+          },
           "DeviceType": "Button",
           "DeviceName": "Button 34",
           "GUID": "c56a3fe8-0b14-4993-89ad-70f5ea20f4d0",
           "Active": true,
           "Name": "CDU 5",
           "Type": "InputConfigItem",
-          "ModuleSerial": "WINWING PFP-3N-CAPTAIN / JS-bc3a7720-e2de-11ef-8001-444553540000",
-          "Preconditions": [
-            {
-              "PreconditionType": "none",
-              "PreconditionRef": null,
-              "PreconditionSerial": null,
-              "PreconditionPin": null,
-              "PreconditionOperand": "=",
-              "PreconditionValue": null,
-              "PreconditionLogic": "and",
-              "PreconditionActive": true
-            }
-          ],
-          "Modifiers": {
-            "Items": []
-          },
-          "ConfigRefs": [],
-          "Status": {}
+          "Controller": {
+            "Name": "WINWING PFP-3N-CAPTAIN",
+            "Serial": "JS-bc3a7720-e2de-11ef-8001-444553540000"
+          }
         },
         {
           "button": {
@@ -1853,30 +1416,20 @@
             "HoldDelay": 350,
             "RepeatDelay": 0
           },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button 35"
+          },
           "DeviceType": "Button",
           "DeviceName": "Button 35",
           "GUID": "fedcc792-e287-47c0-b3e9-defe32a3be61",
           "Active": true,
           "Name": "CDU 6",
           "Type": "InputConfigItem",
-          "ModuleSerial": "WINWING PFP-3N-CAPTAIN / JS-bc3a7720-e2de-11ef-8001-444553540000",
-          "Preconditions": [
-            {
-              "PreconditionType": "none",
-              "PreconditionRef": null,
-              "PreconditionSerial": null,
-              "PreconditionPin": null,
-              "PreconditionOperand": "=",
-              "PreconditionValue": null,
-              "PreconditionLogic": "and",
-              "PreconditionActive": true
-            }
-          ],
-          "Modifiers": {
-            "Items": []
-          },
-          "ConfigRefs": [],
-          "Status": {}
+          "Controller": {
+            "Name": "WINWING PFP-3N-CAPTAIN",
+            "Serial": "JS-bc3a7720-e2de-11ef-8001-444553540000"
+          }
         },
         {
           "button": {
@@ -1892,30 +1445,20 @@
             "HoldDelay": 350,
             "RepeatDelay": 0
           },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button 36"
+          },
           "DeviceType": "Button",
           "DeviceName": "Button 36",
           "GUID": "93742005-2188-4e18-ab9a-9030fa3cbda9",
           "Active": true,
           "Name": "CDU 7",
           "Type": "InputConfigItem",
-          "ModuleSerial": "WINWING PFP-3N-CAPTAIN / JS-bc3a7720-e2de-11ef-8001-444553540000",
-          "Preconditions": [
-            {
-              "PreconditionType": "none",
-              "PreconditionRef": null,
-              "PreconditionSerial": null,
-              "PreconditionPin": null,
-              "PreconditionOperand": "=",
-              "PreconditionValue": null,
-              "PreconditionLogic": "and",
-              "PreconditionActive": true
-            }
-          ],
-          "Modifiers": {
-            "Items": []
-          },
-          "ConfigRefs": [],
-          "Status": {}
+          "Controller": {
+            "Name": "WINWING PFP-3N-CAPTAIN",
+            "Serial": "JS-bc3a7720-e2de-11ef-8001-444553540000"
+          }
         },
         {
           "button": {
@@ -1931,30 +1474,20 @@
             "HoldDelay": 350,
             "RepeatDelay": 0
           },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button 37"
+          },
           "DeviceType": "Button",
           "DeviceName": "Button 37",
           "GUID": "1e1f1695-40a3-4100-adcd-0b32ec5056e4",
           "Active": true,
           "Name": "CDU 8",
           "Type": "InputConfigItem",
-          "ModuleSerial": "WINWING PFP-3N-CAPTAIN / JS-bc3a7720-e2de-11ef-8001-444553540000",
-          "Preconditions": [
-            {
-              "PreconditionType": "none",
-              "PreconditionRef": null,
-              "PreconditionSerial": null,
-              "PreconditionPin": null,
-              "PreconditionOperand": "=",
-              "PreconditionValue": null,
-              "PreconditionLogic": "and",
-              "PreconditionActive": true
-            }
-          ],
-          "Modifiers": {
-            "Items": []
-          },
-          "ConfigRefs": [],
-          "Status": {}
+          "Controller": {
+            "Name": "WINWING PFP-3N-CAPTAIN",
+            "Serial": "JS-bc3a7720-e2de-11ef-8001-444553540000"
+          }
         },
         {
           "button": {
@@ -1970,30 +1503,20 @@
             "HoldDelay": 350,
             "RepeatDelay": 0
           },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button 38"
+          },
           "DeviceType": "Button",
           "DeviceName": "Button 38",
           "GUID": "632e3362-bb7a-47ac-868d-49cb8cd66b2f",
           "Active": true,
           "Name": "CDU 9",
           "Type": "InputConfigItem",
-          "ModuleSerial": "WINWING PFP-3N-CAPTAIN / JS-bc3a7720-e2de-11ef-8001-444553540000",
-          "Preconditions": [
-            {
-              "PreconditionType": "none",
-              "PreconditionRef": null,
-              "PreconditionSerial": null,
-              "PreconditionPin": null,
-              "PreconditionOperand": "=",
-              "PreconditionValue": null,
-              "PreconditionLogic": "and",
-              "PreconditionActive": true
-            }
-          ],
-          "Modifiers": {
-            "Items": []
-          },
-          "ConfigRefs": [],
-          "Status": {}
+          "Controller": {
+            "Name": "WINWING PFP-3N-CAPTAIN",
+            "Serial": "JS-bc3a7720-e2de-11ef-8001-444553540000"
+          }
         },
         {
           "button": {
@@ -2009,30 +1532,20 @@
             "HoldDelay": 350,
             "RepeatDelay": 0
           },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button 40"
+          },
           "DeviceType": "Button",
           "DeviceName": "Button 40",
           "GUID": "6c28a984-69c0-4826-b05a-0c49f427e6e7",
           "Active": true,
           "Name": "CDU 0",
           "Type": "InputConfigItem",
-          "ModuleSerial": "WINWING PFP-3N-CAPTAIN / JS-bc3a7720-e2de-11ef-8001-444553540000",
-          "Preconditions": [
-            {
-              "PreconditionType": "none",
-              "PreconditionRef": null,
-              "PreconditionSerial": null,
-              "PreconditionPin": null,
-              "PreconditionOperand": "=",
-              "PreconditionValue": null,
-              "PreconditionLogic": "and",
-              "PreconditionActive": true
-            }
-          ],
-          "Modifiers": {
-            "Items": []
-          },
-          "ConfigRefs": [],
-          "Status": {}
+          "Controller": {
+            "Name": "WINWING PFP-3N-CAPTAIN",
+            "Serial": "JS-bc3a7720-e2de-11ef-8001-444553540000"
+          }
         },
         {
           "button": {
@@ -2048,30 +1561,20 @@
             "HoldDelay": 350,
             "RepeatDelay": 0
           },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button 39"
+          },
           "DeviceType": "Button",
           "DeviceName": "Button 39",
           "GUID": "9ddd10a8-ce7a-47a5-9a86-5db90b42e0e3",
           "Active": true,
           "Name": "CDU .",
           "Type": "InputConfigItem",
-          "ModuleSerial": "WINWING PFP-3N-CAPTAIN / JS-bc3a7720-e2de-11ef-8001-444553540000",
-          "Preconditions": [
-            {
-              "PreconditionType": "none",
-              "PreconditionRef": null,
-              "PreconditionSerial": null,
-              "PreconditionPin": null,
-              "PreconditionOperand": "=",
-              "PreconditionValue": null,
-              "PreconditionLogic": "and",
-              "PreconditionActive": true
-            }
-          ],
-          "Modifiers": {
-            "Items": []
-          },
-          "ConfigRefs": [],
-          "Status": {}
+          "Controller": {
+            "Name": "WINWING PFP-3N-CAPTAIN",
+            "Serial": "JS-bc3a7720-e2de-11ef-8001-444553540000"
+          }
         },
         {
           "button": {
@@ -2087,30 +1590,20 @@
             "HoldDelay": 350,
             "RepeatDelay": 0
           },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button 41"
+          },
           "DeviceType": "Button",
           "DeviceName": "Button 41",
           "GUID": "36d9615c-57a4-4323-a584-c1b2a5a8e3b9",
           "Active": true,
           "Name": "CDU +/-",
           "Type": "InputConfigItem",
-          "ModuleSerial": "WINWING PFP-3N-CAPTAIN / JS-bc3a7720-e2de-11ef-8001-444553540000",
-          "Preconditions": [
-            {
-              "PreconditionType": "none",
-              "PreconditionRef": null,
-              "PreconditionSerial": null,
-              "PreconditionPin": null,
-              "PreconditionOperand": "=",
-              "PreconditionValue": null,
-              "PreconditionLogic": "and",
-              "PreconditionActive": true
-            }
-          ],
-          "Modifiers": {
-            "Items": []
-          },
-          "ConfigRefs": [],
-          "Status": {}
+          "Controller": {
+            "Name": "WINWING PFP-3N-CAPTAIN",
+            "Serial": "JS-bc3a7720-e2de-11ef-8001-444553540000"
+          }
         },
         {
           "button": {
@@ -2126,30 +1619,22 @@
             "HoldDelay": 350,
             "RepeatDelay": 0
           },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button 25"
+          },
           "DeviceType": "Button",
           "DeviceName": "Button 25",
           "GUID": "c787327c-8752-476c-af86-357ac5b333de",
           "Active": true,
           "Name": "CDU EXEC",
           "Type": "InputConfigItem",
-          "ModuleSerial": "WINWING PFP-3N-CAPTAIN / JS-bc3a7720-e2de-11ef-8001-444553540000",
-          "Preconditions": [
-            {
-              "PreconditionType": "none",
-              "PreconditionRef": null,
-              "PreconditionSerial": null,
-              "PreconditionPin": null,
-              "PreconditionOperand": "=",
-              "PreconditionValue": null,
-              "PreconditionLogic": "and",
-              "PreconditionActive": true
-            }
-          ],
-          "Modifiers": {
-            "Items": []
+          "Controller": {
+            "Name": "WINWING PFP-3N-CAPTAIN",
+            "Serial": "JS-bc3a7720-e2de-11ef-8001-444553540000"
           },
-          "ConfigRefs": [],
-          "Status": {}
+          "RawValue": "RELEASE",
+          "Value": " "
         },
         {
           "button": {
@@ -2165,30 +1650,22 @@
             "HoldDelay": 350,
             "RepeatDelay": 0
           },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button 29"
+          },
           "DeviceType": "Button",
           "DeviceName": "Button 29",
           "GUID": "b8fc9b00-cec3-4457-82dc-bfbe3602ccab",
           "Active": true,
           "Name": "CDU NEXT",
           "Type": "InputConfigItem",
-          "ModuleSerial": "WINWING PFP-3N-CAPTAIN / JS-bc3a7720-e2de-11ef-8001-444553540000",
-          "Preconditions": [
-            {
-              "PreconditionType": "none",
-              "PreconditionRef": null,
-              "PreconditionSerial": null,
-              "PreconditionPin": null,
-              "PreconditionOperand": "=",
-              "PreconditionValue": null,
-              "PreconditionLogic": "and",
-              "PreconditionActive": true
-            }
-          ],
-          "Modifiers": {
-            "Items": []
+          "Controller": {
+            "Name": "WINWING PFP-3N-CAPTAIN",
+            "Serial": "JS-bc3a7720-e2de-11ef-8001-444553540000"
           },
-          "ConfigRefs": [],
-          "Status": {}
+          "RawValue": "RELEASE",
+          "Value": " "
         },
         {
           "button": {
@@ -2204,30 +1681,22 @@
             "HoldDelay": 350,
             "RepeatDelay": 0
           },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button 28"
+          },
           "DeviceType": "Button",
           "DeviceName": "Button 28",
           "GUID": "3d70978d-ec79-4f9a-b226-3290a560c51c",
           "Active": true,
           "Name": "CDU PREV",
           "Type": "InputConfigItem",
-          "ModuleSerial": "WINWING PFP-3N-CAPTAIN / JS-bc3a7720-e2de-11ef-8001-444553540000",
-          "Preconditions": [
-            {
-              "PreconditionType": "none",
-              "PreconditionRef": null,
-              "PreconditionSerial": null,
-              "PreconditionPin": null,
-              "PreconditionOperand": "=",
-              "PreconditionValue": null,
-              "PreconditionLogic": "and",
-              "PreconditionActive": true
-            }
-          ],
-          "Modifiers": {
-            "Items": []
+          "Controller": {
+            "Name": "WINWING PFP-3N-CAPTAIN",
+            "Serial": "JS-bc3a7720-e2de-11ef-8001-444553540000"
           },
-          "ConfigRefs": [],
-          "Status": {}
+          "RawValue": "RELEASE",
+          "Value": " "
         },
         {
           "button": {
@@ -2243,30 +1712,22 @@
             "HoldDelay": 350,
             "RepeatDelay": 0
           },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button 20"
+          },
           "DeviceType": "Button",
           "DeviceName": "Button 20",
           "GUID": "dca1c60b-6c98-44dc-9aee-1d7957de18cd",
           "Active": true,
           "Name": "CDU IDX",
           "Type": "InputConfigItem",
-          "ModuleSerial": "WINWING PFP-3N-CAPTAIN / JS-bc3a7720-e2de-11ef-8001-444553540000",
-          "Preconditions": [
-            {
-              "PreconditionType": "none",
-              "PreconditionRef": null,
-              "PreconditionSerial": null,
-              "PreconditionPin": null,
-              "PreconditionOperand": "=",
-              "PreconditionValue": null,
-              "PreconditionLogic": "and",
-              "PreconditionActive": true
-            }
-          ],
-          "Modifiers": {
-            "Items": []
+          "Controller": {
+            "Name": "WINWING PFP-3N-CAPTAIN",
+            "Serial": "JS-bc3a7720-e2de-11ef-8001-444553540000"
           },
-          "ConfigRefs": [],
-          "Status": {}
+          "RawValue": "RELEASE",
+          "Value": " "
         },
         {
           "button": {
@@ -2282,30 +1743,22 @@
             "HoldDelay": 350,
             "RepeatDelay": 0
           },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button 14"
+          },
           "DeviceType": "Button",
           "DeviceName": "Button 14",
           "GUID": "76bfe571-2193-4be2-88ae-20a6f2850455",
           "Active": true,
           "Name": "CDU FPLN",
           "Type": "InputConfigItem",
-          "ModuleSerial": "WINWING PFP-3N-CAPTAIN / JS-bc3a7720-e2de-11ef-8001-444553540000",
-          "Preconditions": [
-            {
-              "PreconditionType": "none",
-              "PreconditionRef": null,
-              "PreconditionSerial": null,
-              "PreconditionPin": null,
-              "PreconditionOperand": "=",
-              "PreconditionValue": null,
-              "PreconditionLogic": "and",
-              "PreconditionActive": true
-            }
-          ],
-          "Modifiers": {
-            "Items": []
+          "Controller": {
+            "Name": "WINWING PFP-3N-CAPTAIN",
+            "Serial": "JS-bc3a7720-e2de-11ef-8001-444553540000"
           },
-          "ConfigRefs": [],
-          "Status": {}
+          "RawValue": "RELEASE",
+          "Value": " "
         },
         {
           "button": {
@@ -2321,30 +1774,22 @@
             "HoldDelay": 350,
             "RepeatDelay": 0
           },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button 21"
+          },
           "DeviceType": "Button",
           "DeviceName": "Button 21",
           "GUID": "ed5b0b1f-f1df-46d4-9520-26a79fa5268c",
           "Active": true,
           "Name": "CDU LEGS",
           "Type": "InputConfigItem",
-          "ModuleSerial": "WINWING PFP-3N-CAPTAIN / JS-bc3a7720-e2de-11ef-8001-444553540000",
-          "Preconditions": [
-            {
-              "PreconditionType": "none",
-              "PreconditionRef": null,
-              "PreconditionSerial": null,
-              "PreconditionPin": null,
-              "PreconditionOperand": "=",
-              "PreconditionValue": null,
-              "PreconditionLogic": "and",
-              "PreconditionActive": true
-            }
-          ],
-          "Modifiers": {
-            "Items": []
+          "Controller": {
+            "Name": "WINWING PFP-3N-CAPTAIN",
+            "Serial": "JS-bc3a7720-e2de-11ef-8001-444553540000"
           },
-          "ConfigRefs": [],
-          "Status": {}
+          "RawValue": "RELEASE",
+          "Value": " "
         },
         {
           "button": {
@@ -2360,30 +1805,22 @@
             "HoldDelay": 350,
             "RepeatDelay": 0
           },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button 22"
+          },
           "DeviceType": "Button",
           "DeviceName": "Button 22",
           "GUID": "6cd492fd-2ac3-43fc-bcc4-0146d6f0cc7a",
           "Active": true,
           "Name": "CDU DEP ARR",
           "Type": "InputConfigItem",
-          "ModuleSerial": "WINWING PFP-3N-CAPTAIN / JS-bc3a7720-e2de-11ef-8001-444553540000",
-          "Preconditions": [
-            {
-              "PreconditionType": "none",
-              "PreconditionRef": null,
-              "PreconditionSerial": null,
-              "PreconditionPin": null,
-              "PreconditionOperand": "=",
-              "PreconditionValue": null,
-              "PreconditionLogic": "and",
-              "PreconditionActive": true
-            }
-          ],
-          "Modifiers": {
-            "Items": []
+          "Controller": {
+            "Name": "WINWING PFP-3N-CAPTAIN",
+            "Serial": "JS-bc3a7720-e2de-11ef-8001-444553540000"
           },
-          "ConfigRefs": [],
-          "Status": {}
+          "RawValue": "RELEASE",
+          "Value": " "
         },
         {
           "Source": {
@@ -2401,9 +1838,9 @@
           },
           "Device": {
             "Name": "EXEC",
-            "DisplayPin": "EXEC",
-            "DisplayPinBrightness": 255,
-            "DisplayPinPWM": false,
+            "Pin": "EXEC",
+            "Brightness": 255,
+            "PwmMode": false,
             "Type": "Output"
           },
           "DeviceType": "Output",
@@ -2412,28 +1849,269 @@
           "Active": true,
           "Name": "EXEC LIGHT",
           "Type": "OutputConfigItem",
-          "ModuleSerial": "WINWING PFP-3N-CAPTAIN / JS-bc3a7720-e2de-11ef-8001-444553540000",
-          "Preconditions": [
-            {
-              "PreconditionType": "none",
-              "PreconditionRef": null,
-              "PreconditionSerial": null,
-              "PreconditionPin": null,
-              "PreconditionOperand": "=",
-              "PreconditionValue": null,
-              "PreconditionLogic": "and",
-              "PreconditionActive": true
-            }
-          ],
-          "Modifiers": {
-            "Items": []
+          "Controller": {
+            "Name": "WINWING PFP-3N-CAPTAIN",
+            "Serial": "JS-bc3a7720-e2de-11ef-8001-444553540000"
           },
-          "ConfigRefs": [],
           "RawValue": "0",
-          "Value": "0",
-          "Status": {}
+          "Value": "0"
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(>B:FMC_CJ4_1_BUTTON_DIR_PUSH)",
+              "PresetId": "4a2d82c7-7033-4f70-b7cb-89982e830e05"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button 27"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 27",
+          "GUID": "20d80904-321b-454c-9039-083aa4c6fedc",
+          "Active": true,
+          "Name": "FIX Button -> DIR",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "WINWING PFP-3N-CAPTAIN",
+            "Serial": "JS-bc3a7720-e2de-11ef-8001-444553540000"
+          },
+          "RawValue": "RELEASE",
+          "Value": " "
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(>B:FMC_CJ4_1_BUTTON_MSG_PUSH)",
+              "PresetId": "a3dddaac-8859-456e-ac88-a15cd60264b8"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button 26"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 26",
+          "GUID": "fc86fc70-c13a-4e58-9988-f4104f070200",
+          "Active": true,
+          "Name": "N1 LIMIT Button -> MSG",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "WINWING PFP-3N-CAPTAIN",
+            "Serial": "JS-bc3a7720-e2de-11ef-8001-444553540000"
+          },
+          "RawValue": "RELEASE",
+          "Value": " "
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(>B:FMC_CJ4_1_BUTTON_PERF_PUSH)",
+              "PresetId": "3e5b1f9b-f4f0-4749-ac1b-38a23a4e8fdf"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button 13"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 13",
+          "GUID": "a519340c-5589-4b31-ac31-47588fba4f6e",
+          "Active": true,
+          "Name": "INIT REF Button -> PERF",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "WINWING PFP-3N-CAPTAIN",
+            "Serial": "JS-bc3a7720-e2de-11ef-8001-444553540000"
+          },
+          "RawValue": "RELEASE",
+          "Value": " "
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(>B:FMC_CJ4_1_BUTTON_DSPL_MENU_PUSH)",
+              "PresetId": "0e50495d-d30e-4478-a7fc-c963e97da223"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button 15"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 15",
+          "GUID": "a4884889-6851-4377-80fe-33352666ac9f",
+          "Active": true,
+          "Name": "CLB Button -> DSPL MENU",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "WINWING PFP-3N-CAPTAIN",
+            "Serial": "JS-bc3a7720-e2de-11ef-8001-444553540000"
+          },
+          "RawValue": "RELEASE",
+          "Value": " "
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(>B:FMC_CJ4_1_BUTTON_MFD_ADV_PUSH)",
+              "PresetId": "ba456c10-6eac-4ce9-a520-7340a638b205"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button 16"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 16",
+          "GUID": "a3c1ee5e-e4a5-4c07-9ad8-631c0ac2c51b",
+          "Active": true,
+          "Name": "CRZ Button -> MFD ADV",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "WINWING PFP-3N-CAPTAIN",
+            "Serial": "JS-bc3a7720-e2de-11ef-8001-444553540000"
+          },
+          "RawValue": "RELEASE",
+          "Value": " "
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(>B:FMC_CJ4_1_BUTTON_MFD_DATA_PUSH)",
+              "PresetId": "cceb0804-a240-4442-ad98-fae2c05e74bf"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button 17"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 17",
+          "GUID": "45e49d70-28e8-466d-9c58-ddb90f0af139",
+          "Active": true,
+          "Name": "DES Button -> MFD DATA",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "WINWING PFP-3N-CAPTAIN",
+            "Serial": "JS-bc3a7720-e2de-11ef-8001-444553540000"
+          },
+          "RawValue": "RELEASE",
+          "Value": " "
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(>B:FMC_BUTTON_BRT_DIM_BRIGHT)",
+              "PresetId": "49157613-ef3f-4e7c-b3d6-39e85f6dac61"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button 19"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 19",
+          "GUID": "f19e2f00-a79d-48f6-96f6-1630f8509c3a",
+          "Active": true,
+          "Name": "BRT+ -> BRT",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "WINWING PFP-3N-CAPTAIN",
+            "Serial": "JS-bc3a7720-e2de-11ef-8001-444553540000"
+          },
+          "RawValue": "RELEASE",
+          "Value": " "
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "MSFS2020CustomInputAction",
+              "Command": "(>B:FMC_BUTTON_BRT_DIM_DIM)",
+              "PresetId": "7058bc6a-bb31-4feb-9da3-069dc5c5b726"
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "Device": {
+            "Type": "Button",
+            "Name": "Button 18"
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 18",
+          "GUID": "52d97c9c-546d-4888-a1fe-cf67f22d98ff",
+          "Active": true,
+          "Name": "BRT- -> DIM",
+          "Type": "InputConfigItem",
+          "Controller": {
+            "Name": "WINWING PFP-3N-CAPTAIN",
+            "Serial": "JS-bc3a7720-e2de-11ef-8001-444553540000"
+          },
+          "RawValue": "RELEASE",
+          "Value": " "
         }
       ]
     }
-  ]
+  ],
+  "Sim": "msfs",
+  "Aircraft": [],
+  "Features": {
+    "FSUIPC": false,
+    "ProSim": false
+  },
+  "_version": "0.9"
 }
